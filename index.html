@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة الدولة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">🏛️ بوابة الدولة</div>
+
+        <button class="menu-btn" id="menuBtn"
+                aria-label="فتح القائمة"
+                aria-expanded="false">☰</button>
+
+        <nav class="nav" id="navMenu">
+            <button class="nav-link active" data-section="activities">
+                أنشطة الدولة
+            </button>
+            <button class="nav-link" data-section="news">
+                أخبار الدولة
+            </button>
+            <button class="nav-link" data-section="laws">
+                قوانين الدولة
+            </button>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <h1>مرحباً بك في بوابة الدولة</h1>
+            <p>منصتك لمتابعة الأنشطة والأخبار والقوانين.</p>
+        </section>
+
+        <!-- أنشطة الدولة -->
+        <section class="content-section active" id="activities">
+            <h2>🎯 أنشطة الدولة</h2>
+            <p class="section-desc">تابع أحدث الأنشطة والفعاليات.</p>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon">🎉</div>
+                    <h3>الفعاليات الرسمية</h3>
+                    <p>هنا يمكنك نشر تفاصيل الفعاليات والمناسبات الرسمية.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>المبادرات المجتمعية</h3>
+                    <p>أضف معلومات عن المبادرات والمشاريع المجتمعية.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🏗️</div>
+                    <h3>المشاريع الجديدة</h3>
+                    <p>اعرض تفاصيل المشاريع والأنشطة الجديدة.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- أخبار الدولة -->
+        <section class="content-section" id="news">
+            <h2>📰 أخبار الدولة</h2>
+            <p class="section-desc">آخر الأخبار والإعلانات.</p>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon">📢</div>
+                    <h3>الإعلانات الرسمية</h3>
+                    <p>ضع هنا الإعلانات والبيانات الرسمية للدولة.</p>
+                    <span class="tag">إعلان</span>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🌐</div>
+                    <h3>آخر المستجدات</h3>
+                    <p>اكتب هنا تفاصيل الأخبار والتطورات الجديدة.</p>
+                    <span class="tag">أخبار</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- قوانين الدولة -->
+        <section class="content-section" id="laws">
+            <h2>⚖️ قوانين الدولة</h2>
+            <p class="section-desc">القوانين والأنظمة والتعليمات.</p>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon">📜</div>
+                    <h3>القوانين العامة</h3>
+                    <p>أضف نصوص القوانين العامة وتعليماتها هنا.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🏛️</div>
+                    <h3>الأنظمة الإدارية</h3>
+                    <p>اعرض الأنظمة الإدارية وآلية العمل.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">📋</div>
+                    <h3>التعليمات</h3>
+                    <p>أضف التعليمات المهمة التي يحتاج الزائر إلى معرفتها.</p>
+                </article>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 بوابة الدولة - جميع الحقوق محفوظة</p>
+            <p>تصميم وتطوير الموقع</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
